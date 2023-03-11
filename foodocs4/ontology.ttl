@@ -1034,8 +1034,8 @@ rdfs:Resource rdf:type owl:Class ;
                                              <http://www.w3.org/2004/02/skos/core#definition> "degree of logging at the site, on of \"Old-growth\", \"Twic logged\", Logged\" (when number of logging operations unknown)" .
 
 
-###  http://www.ontology/ns/foo/1.1#Elephas_maximus
-<http://www.ontology/ns/foo/1.1#Elephas_maximus> rdf:type owl:NamedIndividual ,
+###  http://www.ontology/ns/foo/1.1#ElephasMaximus
+<http://www.ontology/ns/foo/1.1#ElephasMaximus> rdf:type owl:NamedIndividual ,
                                                           <http://purl.org/ontology/wo/Class/Mammalia> ,
                                                           <http://purl.org/ontology/wo/Family/Elephantidae> ,
                                                           <http://purl.org/ontology/wo/Kingdom/Animalia> ,
@@ -1430,7 +1430,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 ###  http://www.schema.org/dgfc/elephant#ABAW
 <http://www.schema.org/dgfc/elephant#ABAW> rdf:type owl:NamedIndividual ,
                                                     <http://www.w3.org/ns/sosa/Sensor> ;
-                                           <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#Elephas_maximus> ;
+                                           <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#ElephasMaximus> ;
                                            <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Cov> ,
                                                                                         <http://www.ontology/ns/foo/1.1#ExtTemp> ,
                                                                                         <http://www.ontology/ns/foo/1.1#HDOP> ,
@@ -1442,7 +1442,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 ###  http://www.schema.org/dgfc/elephant#Aqeela
 <http://www.schema.org/dgfc/elephant#Aqeela> rdf:type owl:NamedIndividual ,
                                                       <http://www.w3.org/ns/sosa/Sensor> ;
-                                             <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#Elephas_maximus> ;
+                                             <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#ElephasMaximus> ;
                                              <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Direction> ,
                                                                                           <http://www.ontology/ns/foo/1.1#PDOP> ,
                                                                                           <http://www.ontology/ns/foo/1.1#Speed> ,
@@ -1454,7 +1454,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 ###  http://www.schema.org/dgfc/elephant#Bikang1
 <http://www.schema.org/dgfc/elephant#Bikang1> rdf:type owl:NamedIndividual ,
                                                        <http://www.w3.org/ns/sosa/Sensor> ;
-                                              <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#Elephas_maximus> ;
+                                              <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#ElephasMaximus> ;
                                               <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> ,
                                                                                            <http://www.ontology/ns/foo/1.1#Cov> ,
                                                                                            <http://www.ontology/ns/foo/1.1#Direction> ,
@@ -1470,7 +1470,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 ###  http://www.schema.org/dgfc/elephant#Bikang2
 <http://www.schema.org/dgfc/elephant#Bikang2> rdf:type owl:NamedIndividual ,
                                                        <http://www.w3.org/ns/sosa/Sensor> ;
-                                              <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#Elephas_maximus> ;
+                                              <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#ElephasMaximus> ;
                                               <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> ,
                                                                                            <http://www.ontology/ns/foo/1.1#Cov> ,
                                                                                            <http://www.ontology/ns/foo/1.1#Direction> ,
@@ -1486,7 +1486,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 ###  http://www.schema.org/dgfc/elephant#Dara
 <http://www.schema.org/dgfc/elephant#Dara> rdf:type owl:NamedIndividual ,
                                                     <http://www.w3.org/ns/sosa/Sensor> ;
-                                           <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#Elephas_maximus> ;
+                                           <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#ElephasMaximus> ;
                                            <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> ,
                                                                                         <http://www.ontology/ns/foo/1.1#Cov> ,
                                                                                         <http://www.ontology/ns/foo/1.1#Direction> ,
@@ -1503,7 +1503,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 ###  http://www.schema.org/dgfc/elephant#Guli
 <http://www.schema.org/dgfc/elephant#Guli> rdf:type owl:NamedIndividual ,
                                                     <http://www.w3.org/ns/sosa/Sensor> ;
-                                           <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#Elephas_maximus> ;
+                                           <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#ElephasMaximus> ;
                                            <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> ,
                                                                                         <http://www.ontology/ns/foo/1.1#Cov> ,
                                                                                         <http://www.ontology/ns/foo/1.1#Direction> ,
@@ -1948,7 +1948,7 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
                         <http://www.ontology/ns/foo/1.1#Direction>
                         <http://www.ontology/ns/foo/1.1#Distance>
                         <http://www.ontology/ns/foo/1.1#Disturbance>
-                        <http://www.ontology/ns/foo/1.1#Elephas_maximus>
+                        <http://www.ontology/ns/foo/1.1#ElephasMaximus>
                         <http://www.ontology/ns/foo/1.1#Elevation_masl>
                         <http://www.ontology/ns/foo/1.1#ExtTemp>
                         <http://www.ontology/ns/foo/1.1#First_planting_nearest_OP>
