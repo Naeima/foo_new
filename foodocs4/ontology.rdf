@@ -1604,10 +1604,10 @@ Source: google.com</rdfs:comment>
     
 
 
-    <!-- http://www.ontology/ns/foo/1.1#Elephas_maximus -->
+    <!-- http://www.ontology/ns/foo/1.1#ElephasMaximus -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.ontology/ns/foo/1.1#Elephas_maximus">
+    <owl:NamedIndividual rdf:about="http://www.ontology/ns/foo/1.1#ElephasMaximus">
         <rdf:type rdf:resource="http://purl.org/ontology/wo/Class/Mammalia"/>
         <rdf:type rdf:resource="http://purl.org/ontology/wo/Family/Elephantidae"/>
         <rdf:type rdf:resource="http://purl.org/ontology/wo/Kingdom/Animalia"/>
@@ -2214,7 +2214,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.schema.org/dgfc/elephant#ABAW">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-        <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#Elephas_maximus"/>
+        <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#ElephasMaximus"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
@@ -2230,7 +2230,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.schema.org/dgfc/elephant#Aqeela">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-        <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#Elephas_maximus"/>
+        <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#ElephasMaximus"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#PDOP"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
@@ -2246,7 +2246,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.schema.org/dgfc/elephant#Bikang1">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-        <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#Elephas_maximus"/>
+        <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#ElephasMaximus"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
@@ -2266,7 +2266,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.schema.org/dgfc/elephant#Bikang2">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-        <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#Elephas_maximus"/>
+        <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#ElephasMaximus"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
@@ -2286,7 +2286,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.schema.org/dgfc/elephant#Dara">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-        <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#Elephas_maximus"/>
+        <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#ElephasMaximus"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
@@ -2307,7 +2307,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.schema.org/dgfc/elephant#Guli">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-        <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#Elephas_maximus"/>
+        <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#ElephasMaximus"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
         <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
@@ -2844,7 +2844,7 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
             <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Direction"/>
             <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Distance"/>
             <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Disturbance"/>
-            <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Elephas_maximus"/>
+            <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#ElephasMximus"/>
             <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Elevation_masl"/>
             <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#ExtTemp"/>
             <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#First_planting_nearest_OP"/>
