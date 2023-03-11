@@ -74,7 +74,7 @@
     }, {
       "@id" : "http://www.ontology/ns/foo/1.1#Disturbance"
     }, {
-      "@id" : "http://www.ontology/ns/foo/1.1#Elephas_maximus"
+      "@id" : "http://www.ontology/ns/foo/1.1#ElephasMaximus"
     }, {
       "@id" : "http://www.ontology/ns/foo/1.1#Elevation_masl"
     }, {
@@ -1681,7 +1681,7 @@
     "@value" : "degree of logging at the site, on of \"Old-growth\", \"Twic logged\", Logged\" (when number of logging operations unknown)"
   } ]
 }, {
-  "@id" : "http://www.ontology/ns/foo/1.1#Elephas_maximus",
+  "@id" : "http://www.ontology/ns/foo/1.1#ElephasMaximus",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://purl.org/ontology/wo/Class/Mammalia"
@@ -2341,7 +2341,7 @@
     "@value" : "A female asian elephant called  Abaw, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
-    "@id" : "http://www.ontology/ns/foo/1.1#Elephas_maximus"
+    "@id" : "http://www.ontology/ns/foo/1.1#ElephasMaximus"
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.ontology/ns/foo/1.1#Cov"
@@ -2366,7 +2366,7 @@
     "@value" : "A female asian elephant called  Aqeela, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
-    "@id" : "http://www.ontology/ns/foo/1.1#Elephas_maximus"
+    "@id" : "http://www.ontology/ns/foo/1.1#ElephasMaximus"
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.ontology/ns/foo/1.1#Direction"
@@ -2387,7 +2387,7 @@
     "@value" : "A female asian elephant called Bikang1, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
-    "@id" : "http://www.ontology/ns/foo/1.1#Elephas_maximus"
+    "@id" : "http://www.ontology/ns/foo/1.1#ElephasMaximus"
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.ontology/ns/foo/1.1#Count"
@@ -2418,7 +2418,7 @@
     "@value" : "A female asian elephant called Bikang2, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
-    "@id" : "http://www.ontology/ns/foo/1.1#Elephas_maximus"
+    "@id" : "http://www.ontology/ns/foo/1.1#ElephasMaximus"
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.ontology/ns/foo/1.1#Count"
@@ -2449,7 +2449,7 @@
     "@value" : "A female asian elephant called Dara, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
-    "@id" : "http://www.ontology/ns/foo/1.1#Elephas_maximus"
+    "@id" : "http://www.ontology/ns/foo/1.1#ElephasMaximus"
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.ontology/ns/foo/1.1#Count"
@@ -2482,7 +2482,7 @@
     "@value" : "A male asian elephant called Guli, here, the GPS collar (sensor) is named after him."
   } ],
   "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
-    "@id" : "http://www.ontology/ns/foo/1.1#Elephas_maximus"
+    "@id" : "http://www.ontology/ns/foo/1.1#ElephasMaximus"
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.ontology/ns/foo/1.1#Count"
