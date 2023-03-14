@@ -8,11 +8,8 @@
 
 <http://www.ontology/ns/foo#> rdf:type owl:Ontology ;
                                owl:versionIRI <http://www.ontology/ns/foo/1.1#> .
-
-                   
-    Annotation properties
-            
-
+Annotation properties
+           
 http://creativecommons.org/ns#license
 <http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty ;
                                         rdfs:subPropertyOf <http://purl.org/dc/terms/license> ;
@@ -25,7 +22,7 @@ http://creativecommons.org/ns#license
                                                 rdfs:range rdfs:Resource .
 
 
-   http://creativecommons.org/ns#useGuidelines
+http://creativecommons.org/ns#useGuidelines
 <http://creativecommons.org/ns#useGuidelines> rdf:type owl:AnnotationProperty ;
                                               rdfs:subPropertyOf <http://purl.org/dc/terms/relation> ;
                                               rdfs:range rdfs:Resource .
@@ -80,16 +77,12 @@ http://creativecommons.org/ns#license
    http://www.w3.org/2004/02/skos/core#example
 <http://www.w3.org/2004/02/skos/core#example> rdf:type owl:AnnotationProperty .
 
-
-                     ##
 #    Object Properties
-                     ##
 
    http://creativecommons.org/ns#attributionURL
 <http://creativecommons.org/ns#attributionURL> rdf:type owl:ObjectProperty ;
                                                rdfs:domain <http://creativecommons.org/ns#Work> ;
-                                               rdfs:range rdfs:Resource .
-
+                                               rdfs:range rdfs:Resource 
 
    http://creativecommons.org/ns#deprecatedOn
 <http://creativecommons.org/ns#deprecatedOn> rdf:type owl:ObjectProperty ;
@@ -111,7 +104,6 @@ http://creativecommons.org/ns#license
                                           rdfs:domain <http://creativecommons.org/ns#License> ;
                                           rdfs:range rdfs:Resource .
 
-
    http://creativecommons.org/ns#license
 <http://creativecommons.org/ns#license> rdf:type owl:ObjectProperty ;
                                         rdfs:domain <http://creativecommons.org/ns#Work> .
@@ -128,13 +120,11 @@ http://creativecommons.org/ns#license
                                         rdfs:range <http://creativecommons.org/ns#Permission> ;
                                         rdfs:label "permits"@en-us .
 
-
    http://creativecommons.org/ns#prohibits
 <http://creativecommons.org/ns#prohibits> rdf:type owl:ObjectProperty ;
                                           rdfs:domain <http://creativecommons.org/ns#License> ;
                                           rdfs:range <http://creativecommons.org/ns#Prohibition> ;
                                           rdfs:label "prohibits"@en-us .
-
 
    http://creativecommons.org/ns#requires
 <http://creativecommons.org/ns#requires> rdf:type owl:ObjectProperty ;
@@ -142,11 +132,9 @@ http://creativecommons.org/ns#license
                                          rdfs:range <http://creativecommons.org/ns#Requirement> ;
                                          rdfs:label "requires"@en-us .
 
-
    http://creativecommons.org/ns#useGuidelines
 <http://creativecommons.org/ns#useGuidelines> rdf:type owl:ObjectProperty ;
                                               rdfs:domain <http://creativecommons.org/ns#Work> .
-
 
    http://purl.org/ontology/wo/class
 <http://purl.org/ontology/wo/class> rdf:type owl:ObjectProperty ;
@@ -156,7 +144,6 @@ http://creativecommons.org/ns#license
                                     rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
                                     rdfs:label "class"@en-gb ;
                                     <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-
 
    http://purl.org/ontology/wo/family
 <http://purl.org/ontology/wo/family> rdf:type owl:ObjectProperty ;
@@ -345,11 +332,7 @@ http://creativecommons.org/ns#license
                                        rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
                                        rdfs:label "based near" ;
                                        <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-
-
-                     ##
 #    Data properties
-                     ##
 
    http://creativecommons.org/ns#attributionName
 <http://creativecommons.org/ns#attributionName> rdf:type owl:DatatypeProperty ;
@@ -381,12 +364,7 @@ http://creativecommons.org/ns#license
 <http://www.w3.org/ns/sosa/resultTime> rdf:type owl:DatatypeProperty ;
                                        rdfs:domain <http://www.w3.org/ns/sosa/Observation> ;
                                        rdfs:range xsd:dateTime .
-
-
-                     ##
 #    Classes
-                     ##
-
    http://creativecommons.org/ns#Jurisdiction
 <http://creativecommons.org/ns#Jurisdiction> rdf:type owl:Class ;
                                              rdfs:subClassOf owl:Thing ;
@@ -838,10 +816,7 @@ rdfs:Resource rdf:type owl:Class ;
 <http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class ;
                                    rdfs:subClassOf owl:Thing .
 
-
-                     ##
 #    Individuals
-                     ##
 
    http://creativecommons.org/ns#Attribution
 <http://creativecommons.org/ns#Attribution> rdf:type owl:NamedIndividual ,
@@ -1741,7 +1716,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
 
                    
-#    Annotations
+#  Annotations
                      
 
 <http://creativecommons.org/ns#license> rdfs:label """has
