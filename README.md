@@ -1,60 +1,74 @@
 @prefix : <http://www.ontology/ns/foo#> .
+
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
 @base <http://www.ontology/ns/foo#> .
 
 <http://www.ontology/ns/foo#> rdf:type owl:Ontology ;
                                owl:versionIRI <http://www.ontology/ns/foo/1.1#> .
+                               
 Annotation properties
            
 http://creativecommons.org/ns#license
-<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty ;
-                                        rdfs:subPropertyOf <http://purl.org/dc/terms/license> ;
-                                        rdfs:range <http://creativecommons.org/ns#License> .
 
+<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty ;
+rdfs:subPropertyOf <http://purl.org/dc/terms/license> ;
+rdfs:range <http://creativecommons.org/ns#License> .
 
  http://creativecommons.org/ns#morePermissions
+ 
 <http://creativecommons.org/ns#morePermissions> rdf:type owl:AnnotationProperty ;
-                                                rdfs:subPropertyOf <http://purl.org/dc/terms/relation> ;
-                                                rdfs:range rdfs:Resource .
-
+rdfs:subPropertyOf <http://purl.org/dc/terms/relation> ;
+rdfs:range rdfs:Resource .
 
 http://creativecommons.org/ns#useGuidelines
+
 <http://creativecommons.org/ns#useGuidelines> rdf:type owl:AnnotationProperty ;
-                                              rdfs:subPropertyOf <http://purl.org/dc/terms/relation> ;
-                                              rdfs:range rdfs:Resource .
+rdfs:subPropertyOf <http://purl.org/dc/terms/relation> ;
+rdfs:range rdfs:Resource .
 
-
-   http://data.bioontology.org/metadata/prefixIRI
+ http://data.bioontology.org/metadata/prefixIRI
+ 
 <http://data.bioontology.org/metadata/prefixIRI> rdf:type owl:AnnotationProperty .
 
 
    http://purl.oclc.org/NET/UNIS/fiware/iot-lite#hasSensingDevice
+   
 <http://purl.oclc.org/NET/UNIS/fiware/iot-lite#hasSensingDevice> rdf:type owl:AnnotationProperty .
 
 
-   http://purl.oclc.org/NET/UNIS/fiware/iot-lite#relativeLocation
+  http://purl.oclc.org/NET/UNIS/fiware/iot-lite#relativeLocation
+   
 <http://purl.oclc.org/NET/UNIS/fiware/iot-lite#relativeLocation> rdf:type owl:AnnotationProperty .
 
 
-   http://purl.org/dc/terms/description
+  http://purl.org/dc/terms/description
+   
 <http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
 
 
-   http://purl.org/dc/terms/license
+  http://purl.org/dc/terms/license
+   
 <http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty ;
-                                   <http://purl.org/dc/terms/license> <http://www.opengeospatial.org/ogc/Software> ,
-                                                                      <http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document> .
+ <http://purl.org/dc/terms/license> <http://www.opengeospatial.org/ogc/Software> ,
+ <http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document> .
 
 
-   http://purl.org/dc/terms/relation
+ http://purl.org/dc/terms/relation
+ 
 <http://purl.org/dc/terms/relation> rdf:type owl:AnnotationProperty .
 
 
-   http://purl.org/dc/terms/title
+http://purl.org/dc/terms/title
+   
 <http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
 
 
@@ -62,11 +76,12 @@ http://creativecommons.org/ns#useGuidelines
 <http://schema.org/domainIncludes> rdf:type owl:AnnotationProperty .
 
 
-   http://schema.org/rangeIncludes
+http://schema.org/rangeIncludes
 <http://schema.org/rangeIncludes> rdf:type owl:AnnotationProperty .
 
 
    http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
+   
 <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> rdf:type owl:AnnotationProperty .
 
 
